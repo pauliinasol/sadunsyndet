@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sadun syndet!</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.countdown.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="getting-started">
+        </div>
+        <script type="text/javascript">
+            $("#getting-started").countdown("2016/08/06", function(event) {
+                $(this).text(event.strftime('%D days %H:%M:%S'));
+            });
+        </script>
+    </div>
+
+    <div class="list">
+      <div class="text">
+        <ul>
+        <li>Caloniuksenkatu 2 viimeistään klo 14.00. Summeri: Anttila.</li>
+
+        <li>Ruoka vasta illalla eli syö tätä ennen brunssi/lounas. Tuo myös juotavaa. 1-2 pulloa.</li>
+
+        <li>Kuljetusmaksu! Suositus 25 euroa.</li>
+
+        <li>Tuo pyyhe! Ja vaihtovaatteet. Dresscode: Semifancy.</li>
+
+        <li>MUISTA OHJELMA NUMERO! Mitä tahansa maan ja taivaan väliltä. Pesäpallomaila varattu.</li>
+
+        <li>Minne jatkoille?? Ehdota!</li>
+
+      </ul>
+      </div>
+    </div>
+</body>
+
+</html>
